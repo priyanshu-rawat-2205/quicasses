@@ -19,15 +19,7 @@ Before you begin, ensure you have the following installed:
     cd quicasses
     ```
 
-2.  **Clone the frontend and backend repositories:**
-
-    Run the [setup.sh](http://_vscodecontentref_/1) script to clone the frontend and backend repositories and set up the application.
-
-    ```bash
-    ./setup.sh
-    ```
-
-3.  **Configure Environment Variables:**
+2.  **Configure Environment Variables:**
 
     Create a [.env](http://_vscodecontentref_/2) file in the root directory of the project. Add the following environment variables:
 
@@ -46,6 +38,14 @@ Before you begin, ensure you have the following installed:
 
     Replace the placeholder values with your actual configuration.
     There's `.env.example` file available for your help
+
+3.  **Clone the frontend and backend repositories:**
+
+    Run the [setup.sh](http://_vscodecontentref_/1) script to clone the frontend and backend repositories and set up the application.
+
+    ```bash
+    ./setup.sh
+    ```
 
 ## Running the Application Manually
 
